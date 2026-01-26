@@ -1,14 +1,18 @@
-h1 {
-  font-size: 3rem;
-  font-weight: 800;
-  color: #222;
-  text-transform: uppercase;
-  margin-bottom: 0.5em;
+/* Full-page center */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  font-family: Arial, sans-serif;
 }
 
+/* Countdown box */
 #countdown {
+  text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 20px;
   color: #e63946;
+  line-height: 1.4;
 }
