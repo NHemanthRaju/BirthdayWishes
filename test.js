@@ -2,7 +2,7 @@
 
 const countdownEl = document.getElementById("countdown");
 
-// Target day (Month 0 = Jan)
+// - Target day (Month 0 = Jan)
 const TARGET_MONTH = 0; // January
 const TARGET_DAY = 24;  // 26th
 
