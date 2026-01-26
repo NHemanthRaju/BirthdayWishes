@@ -60,7 +60,7 @@ setInterval(() => {
     </div>
 
     <div class="timer">
-      ${days}d ${hours}h ${minutes}m ${seconds}s
+      ${days}DAYS ${hours}hOURS ${minutes}MINUTES ${seconds}SECONDS
     </div>
 
     <div class="bottom-text">
