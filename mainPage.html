@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="test.css">
-    <title>Page Title</title>
+<link rel="stylesheet" href="test.css">
+<title>Birthday Countdown</title>
 </head>
 <body>
-<div id="countdown"></div>
 
-	<script src="test.js"></script>
+<div id="countdown">
+  <div class="top-text">LET'S WAIT TOGETHER UNTIL YOUR NEXT BIRTHDAY</div>
+
+  <div class="timer">
+    <div class="digit"><div class="flip-digit" id="days">00</div><span>DAYS</span></div>
+    <div class="digit"><div class="flip-digit" id="hours">00</div><span>HOURS</span></div>
+    <div class="digit"><div class="flip-digit" id="minutes">00</div><span>MINUTES</span></div>
+    <div class="digit"><div class="flip-digit" id="seconds">00</div><span>SECONDS</span></div>
+  </div>
+
+  <div class="bottom-text" id="statusMessage"></div>
+</div>
+
+<script src="test.js"></script>
 </body>
 </html>
