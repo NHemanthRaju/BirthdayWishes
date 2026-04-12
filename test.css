@@ -1,18 +1,55 @@
-/* Full-page center */
 body {
-  margin: 0;
-  height: 100vh;
+  background: #111;
   display: flex;
-  justify-content: center; /* horizontal */
-  align-items: center;     /* vertical */
-  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Arial Black', Arial, sans-serif;
+  margin: 0;
+  color: #f05ea5;
 }
 
-/* Countdown box */
 #countdown {
   text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #e63946;
-  line-height: 1.4;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.digit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flip-digit {
+  width: 100px;
+  height: 120px;
+  background: #222;
+  color: #f05ea5;
+  font-size: 3rem;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #000;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  position: relative;
+}
+
+.digit span {
+  margin-top: 8px;
+  font-size: 0.8rem;
+}
+
+#statusMessage {
+  margin-top: 15px; /* adjust spacing as needed */
+  font-size: 1rem;   /* optional: adjust size */
+  color: #f05ea5;    /* match your theme */
+  text-align: center;
 }
